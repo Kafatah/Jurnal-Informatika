@@ -9,5 +9,6 @@ seperti yang di atas pada pertemuan kali ini kita membahas bilangan komparasi ya
 - == : Sama dengan
 - != : Tidak sama dengan
 
-  dan juga saya di minta untuk mencoba latihan tentang bilangan komparasi seperti ini :
-  https://github.com/Kafatah/Jurnal-Informatika/blob/main/pertemuan%206
+dan juga saya di minta untuk mencoba latihan tentang bilangan komparasi seperti ini :
+
+
