@@ -28,7 +28,7 @@ elif nilai < 75 :
         print ('Tidak Lulus')
 else :
     print ('Tingkatkan Kehadiran')
-
+===========================================================================================================================================
 print ('PROGRAM MENENTUKAN DISKON')
 
 harga = float(input('Masukan total belanja anda :'))
