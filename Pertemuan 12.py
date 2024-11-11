@@ -1,33 +1,33 @@
-# print ('PROGRAM KATEGORI USIA')
-# usia = float(input('masukan usia anda :'))
+print ('PROGRAM KATEGORI USIA')
+usia = float(input('masukan usia anda :'))
 
-# if usia < 13 :
-#     print ('Kategori: Anak-anak')
-# elif 13<=usia<=18 :
-#     print ('Kategori: Remaja')
-# elif 18<usia<=50 :
-#     if usia < 30 :
-#         print ('Kategori: Dewasa Muda')
-#     else :
-#         print ('Kategori: Dewasa')
-# else :
-#     print ('Kategori: Lansia')
+if usia < 13 :
+    print ('Kategori: Anak-anak')
+elif 13<=usia<=18 :
+    print ('Kategori: Remaja')
+elif 18<usia<=50 :
+    if usia < 30 :
+        print ('Kategori: Dewasa Muda')
+    else :
+        print ('Kategori: Dewasa')
+else :
+    print ('Kategori: Lansia')
 
 
-# print ('PROGRAM MENENTUKAN LULUS ATAU TIDAK')
+print ('PROGRAM MENENTUKAN LULUS ATAU TIDAK')
 
-# nilai = int(input('Masukan nilai anda (0-100):'))
-# absen = int(input('Masukan persentase kehadiran (0-100) :'))
+nilai = int(input('Masukan nilai anda (0-100):'))
+absen = int(input('Masukan persentase kehadiran (0-100) :'))
 
-# if nilai >= 75 and absen >=80 :
-#     print ('Selamat Anda Lulus')
-# elif nilai < 75 :
-#     if absen > 90 :
-#         print ('Perbaiki nilai')
-#     else :
-#         print ('Tidak Lulus')
-# else :
-#     print ('Tingkatkan Kehadiran')
+if nilai >= 75 and absen >=80 :
+    print ('Selamat Anda Lulus')
+elif nilai < 75 :
+    if absen > 90 :
+        print ('Perbaiki nilai')
+    else :
+        print ('Tidak Lulus')
+else :
+    print ('Tingkatkan Kehadiran')
 
 print ('PROGRAM MENENTUKAN DISKON')
 
@@ -49,18 +49,18 @@ else :
     else :
         print ('Sayang sekali anda tidak mendapatkan diskon, jika anda ingin mendapatkan diskon silahkan join membership kami. total belanja anda menjadi :', harga)
 
-# print ('PROGRAM MENENTUKAN TARIF PARKIR')
+print ('PROGRAM MENENTUKAN TARIF PARKIR')
 
-# jenis = str(input('masukan jenis kendaraan anda (Motor atau Mobil) : '))
-# jam = float(input('Masukan berapa lama anda parkir (dalam jam) : '))
+jenis = str(input('masukan jenis kendaraan anda (Motor atau Mobil) : '))
+jam = float(input('Masukan berapa lama anda parkir (dalam jam) : '))
 
-# if jenis == 'Motor' :
-#     if jam <= 2 :
-#         print ('tarif anda adalah 2000')
-#     else :
-#         print ('Tarif anda adalah', 1000 * jam )
-# else :
-#     if jam <= 2 :
-#         print ('Tarif parkir anda adalah 5000')
-#     else :
-#         print ('Tarif parkir anda adalah', 5000 + (2000*(jam-2)))
+if jenis == 'Motor' :
+    if jam <= 2 :
+        print ('tarif anda adalah 2000')
+    else :
+        print ('Tarif anda adalah', 1000 * jam )
+else :
+    if jam <= 2 :
+        print ('Tarif parkir anda adalah 5000')
+    else :
+        print ('Tarif parkir anda adalah', 5000 + (2000*(jam-2)))
