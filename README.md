@@ -9,4 +9,5 @@ seperti yang di atas pada pertemuan kali ini kita membahas bilangan komparasi ya
 - == : Sama dengan
 - != : Tidak sama dengan
 
-  dan juga saya di minta untuk mencoba membuat perbandingan 
+  dan juga saya di minta untuk mencoba latihan tentang bilangan komparasi seperti ini :
+  
